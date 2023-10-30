@@ -1,0 +1,25 @@
+.container-brand{
+    display: flex;
+    flex-direction: row;
+    
+}
+h1{
+    margin-left: 3rem;
+}
+.logo{
+    max-width: 60px;
+    object-fit: contain;
+}
+ul, li{
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+    /* background-color: steelblue; */
+    max-width: 800px;
+    margin: 0 auto;
+}
