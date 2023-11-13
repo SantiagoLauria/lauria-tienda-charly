@@ -1,8 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import NavBar from './components/NavBar'
-import ItemListContainer from './components/ItemListContainer'
+import NavBar from './components/NavBar/NavBar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+fetch("public/assets/json/products.JSON")
+let products = undefined
+.then(res => res.json())
+.then(data => products = data)
+let item = products[0]
 
 function App() {
   const [count, setCount] = useState(0)
