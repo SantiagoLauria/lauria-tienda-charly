@@ -3,36 +3,51 @@
       {
         "nombre": "Remera Vida",
         "imagen": "/public/assets/remera-vida.jpg",
-        "precio": "$4500"
+        "precio": "$4500",
+        "category": "remera",
+        "id": 1
       },
       {
         "nombre": "Taza Clics Modernos",
         "imagen": "/public/assets/taza-clics.webp",
-        "precio": "$2200"
+        "precio": "$2200",
+        "category": "taza",
+        "id": 2
       },
       {
         "nombre": "Charly Saltando",
         "imagen": "/public/assets/charly-figura.webp",
-        "precio": "$4000"
+        "precio": "$4000",
+        "category": "otros",
+        "id": 3
       },
       {
         "nombre": "Remera Grasa de las Capitales",
         "imagen": "/public/assets/remera-grasa.jpg",
-        "precio": "$4200"      },
+        "precio": "$4200",
+        "category": "remera",
+        "id": 4
+      },
       {
         "nombre": "Cuaderno Charly",
         "imagen": "/public/assets/cuaderno-charly.jpg",
-        "precio": "$3800"
+        "precio": "$3800",
+        "category": "cuaderno",
+        "id": 5
       },
       {
         "nombre": "Remera Películas",
         "imagen": "/public/assets/remera-maquina.webp",
-        "precio": "$4300"
+        "precio": "$4300",
+        "category": "remera",
+        "id": 6
       },
       {
         "nombre": "Taza Piano Bar",
         "imagen": "/public/assets/taza-piano.webp",
-        "precio": "$3800"
+        "precio": "$3800",
+        "category": "taza",
+        "id": 7
       }
     ]
   }
